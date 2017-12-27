@@ -5,6 +5,8 @@ class FoodTruck
     items = [] # shrimp platter $12 
     self.add_items(items) if items != nil # we will need to create this method below 
   end 
+  
+  def add_items(items) # add items to menu, if items are not already on the menu (included in items)
 
-
+  end 
 end 
