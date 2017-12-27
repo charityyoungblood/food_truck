@@ -1,4 +1,6 @@
 class FoodTruck
+  # in order to keep track of all the instances of FoodTruck we create an @@all array 
+  @@all = []
   def initialize(name, hours, items = nil) # if you allow an argument to have a default value, be sure to include if statement with "if (argument) is != nil
     @name = name
     @hours = hours 
